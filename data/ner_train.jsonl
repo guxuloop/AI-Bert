@@ -1,0 +1,10 @@
+{"tokens": ["明", "天", "下", "午", "3", "点", "在", "会", "议", "室", "开", "会"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "B-LOC", "I-LOC", "I-LOC", "O", "O"]}
+{"tokens": ["早", "上", "7", "点", "叫", "我", "起", "床"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O"]}
+{"tokens": ["下", "周", "一", "上", "午", "9", "点", "项", "目", "评", "审"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O"]}
+{"tokens": ["提", "醒", "我", "下", "午", "4", "点", "去", "取", "快", "递"], "ner_tags": ["O", "O", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O"]}
+{"tokens": ["去", "上", "海", "出", "差"], "ner_tags": ["O", "B-LOC", "I-LOC", "O", "O"]}
+{"tokens": ["周", "五", "下", "午", "2", "点", "全", "体", "会", "议", "在", "大", "会", "议", "室"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O", "O", "O", "B-LOC", "I-LOC", "I-LOC", "I-LOC"]}
+{"tokens": ["设", "置", "2", "0", "分", "钟", "后", "的", "闹", "钟"], "ner_tags": ["O", "O", "B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O"]}
+{"tokens": ["晚", "上", "八", "点", "提", "醒", "我"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O", "O"]}
+{"tokens": ["在", "星", "巴", "克", "见", "面"], "ner_tags": ["O", "B-LOC", "I-LOC", "I-LOC", "O", "O"]}
+{"tokens": ["每", "天", "早", "上", "六", "点", "跑", "步"], "ner_tags": ["B-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "I-TIME", "O", "O"]}

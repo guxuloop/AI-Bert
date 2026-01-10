@@ -1,0 +1,8 @@
+transformers
+datasets
+torch>=1.12.0
+scikit-learn
+onnx
+onnxruntime
+accelerate
+onnxscript

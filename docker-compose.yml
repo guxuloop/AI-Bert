@@ -1,0 +1,10 @@
+services:
+  bert-trainer:
+    build: .
+    volumes:
+      - .:/app
+      # Mount huggingface cache to avoid re-downloading models every time
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    environment:
+      - HF_ENDPOINT=https://hf-mirror.com
+    command: tail -f /dev/null

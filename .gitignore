@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+.thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Project - Models & Artifacts
+# Ignore all trained models and exported ONNX files
+models/classifier/
+models/ner/
+models/*.onnx
+models/*.data
+models/*.pb
+models/*.bin
+models/*_hf_onnx/
+models/*_quant_optimum/
+
+# Project - Temporary files
+*.log
+*.data
