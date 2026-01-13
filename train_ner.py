@@ -105,6 +105,7 @@ def main():
         save_strategy="no",  # save space for demo
         eval_strategy="no",  # no validation set for demo text
         logging_steps=10,
+        report_to="none"  # Disable wandb logging
     )
 
     trainer = Trainer(

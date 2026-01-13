@@ -46,7 +46,8 @@ def main():
         per_device_train_batch_size=8,
         save_strategy="epoch",
         eval_strategy="epoch",
-        logging_steps=10
+        logging_steps=10,
+        report_to="none"  # Disable wandb logging
     )
 
     trainer = Trainer(
